@@ -14,7 +14,7 @@ def rename_files_with_numbers(folder_path):
 
     # ファイルに番号を付けてリネーム
     for index, file in enumerate(files, start=1):
-        # 新しいファイル名を生成
+        # 新しいファイル名を生成>
         new_filename = f"{index:02d}_{file.name}"
 
         # 新しいパスを作成
